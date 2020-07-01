@@ -650,16 +650,13 @@
 				<div class="col-lg-6">
 					<div class="graph-content">
 						<h2>24/7 Online Customer Support</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua. Quis ipsumv</p>
+						<p>Our online support staffs are always online to listen to your conncerns about your gadgets and our services. </p>
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-							viverra maecenas accumsan lacus vel. </p>
+						<p>We also offer quick remote consultation services, where you get to speak with a professional for some trouble shooting techniques, before the arrival of our onsite engineer where necessary </p>
 
-						<h3>15 Ways To protect Your Bussiness From A Cyber Attack</h3>
+						<h3>We are ever ready to hear from you!</h3>
 						<a href="#" class="default-btn">
-							Download
+							Contact us
 						</a>
 					</div>
 				</div>
@@ -673,8 +670,7 @@
 		<div class="container">
 			<div class="section-title">
 				<h2>Frequently Asked Questions</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis vel consequatur tempora atque
-					blanditiis exercitationem incidunt, alias corporis quam assumenda dicta.</p>
+				<p>Here are a list of some of the questions frequntly asked by Genicks customers.</p>
 			</div>
 
 			<div class="row align-items-center">
@@ -690,60 +686,44 @@
 							<li class="accordion-item">
 								<a class="accordion-title active" href="javascript:void(0)">
 									<i class="bx bx-plus"></i>
-									What's The Difference Between IDS And IBS?
+									Will Genicks Engineers come to my house on request?
 								</a>
 
 								<div class="accordion-content show">
-									<p>Lorem, ipsum dolor sit amet How do you Startup? consectetur adipisicing elit.
-										Accusamus ipsa error, excepturi, obcaecati aliquid veniam blanditiis quas
-										voluptates maxime unde, iste minima dolores dolor perferendis facilis. How do
-										you Startup blanditiis voluptates Lorem, ipsum dolor sit amet How do you Startup
-										amet How do.</p>
+									<p>Yes, contact us using the quotes form or the contact us form. We are ever glad to do business with you</p>
 								</div>
 							</li>
 
 							<li class="accordion-item">
 								<a class="accordion-title" href="javascript:void(0)">
 									<i class="bx bx-plus"></i>
-									How Is Encryption Different From Hacking
+									Will Genicks help me setup computers in my new office or apartment
 								</a>
 
 								<div class="accordion-content">
-									<p>Lorem, ipsum dolor sit amet How do you Startup? consectetur adipisicing elit.
-										Accusamus ipsa error, excepturi, obcaecati aliquid veniam blanditiis quas
-										voluptates maxime unde, iste minima dolores dolor perferendis facilis. How do
-										you Startup blanditiis voluptates Lorem, ipsum dolor sit amet How do you Startup
-										amet How do.</p>
+									<p>Yes, we undertake all kinds of system setup and installations. We also setup and deploy networks, all based on request</p>
 								</div>
 							</li>
 
 							<li class="accordion-item">
 								<a class="accordion-title" href="javascript:void(0)">
 									<i class="bx bx-plus"></i>
-									What Is Firewall And Why It Is Used?
+									Can Geniks Customer Care Help me trouble shoot my Phone or PC?
 								</a>
 
 								<div class="accordion-content">
-									<p>Lorem, ipsum dolor sit amet How do you Startup? consectetur adipisicing elit.
-										Accusamus ipsa error, excepturi, obcaecati aliquid veniam blanditiis quas
-										voluptates maxime unde, iste minima dolores dolor perferendis facilis. How do
-										you Startup blanditiis voluptates Lorem, ipsum dolor sit amet How do you Startup
-										amet How do.</p>
+									<p>Yes, our support enginners will always help you trouble shoot your phone, PCs or gadgets.They would also advise you properly on the next line of action, if remote trouble shooting cannot resoluve the challange</p>
 								</div>
 							</li>
 
 							<li class="accordion-item">
 								<a class="accordion-title" href="javascript:void(0)">
 									<i class="bx bx-plus"></i>
-									What Steps Will You Take To Secure server
+									How does Genicks charge for their services
 								</a>
 
 								<div class="accordion-content">
-									<p>Lorem, ipsum dolor sit amet How do you Startup? consectetur adipisicing elit.
-										Accusamus ipsa error, excepturi, obcaecati aliquid veniam blanditiis quas
-										voluptates maxime unde, iste minima dolores dolor perferendis facilis. How do
-										you Startup blanditiis voluptates Lorem, ipsum dolor sit amet How do you Startup
-										amet How do.</p>
+									<p>At Genicks, you get the best services charges at minimum cost. All charges are based on the technicalities involved in the service delievered </p>
 								</div>
 							</li>
 						</ul>

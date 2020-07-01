@@ -200,41 +200,30 @@
 
 						<ul>
 							<li>
-								<a href="#">
+								<a href="/">
 									<i class="bx bx-chevrons-right"></i>
-									Web Site Protection
+									Home
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="/about">
 									<i class="bx bx-chevrons-right"></i>
-									Hosting & Server Guard
+									About
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="/services">
 									<i class="bx bx-chevrons-right"></i>
-									Web Administrator
+									Services
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="/products">
 									<i class="bx bx-chevrons-right"></i>
-									Conducting Training
+									Products
 								</a>
 							</li>
-							<li>
-								<a href="#">
-									<i class="bx bx-chevrons-right"></i>
-									GRPS Smart Protection
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<i class="bx bx-chevrons-right"></i>
-									Security App
-								</a>
-							</li>
+							
 						</ul>
 					</div>
 				</div>
@@ -245,13 +234,19 @@
 
 						<ul>
 							<li>
-								<a href="#">
+								<a href="/quote">
 									<i class="bx bx-chevrons-right"></i>
-									Support Forum
+									Quote Form
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="/contact">
+									<i class="bx bx-chevrons-right"></i>
+									Contact Form
+								</a>
+							</li>
+							<li>
+								<a href="/faq">
 									<i class="bx bx-chevrons-right"></i>
 									FAQ Questions
 								</a>
@@ -262,67 +257,33 @@
 									24/7 Support for Help
 								</a>
 							</li>
-							<li>
-								<a href="#">
-									<i class="bx bx-chevrons-right"></i>
-									Counseling
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<i class="bx bx-chevrons-right"></i>
-									Protection
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<i class="bx bx-chevrons-right"></i>
-									Security
-								</a>
-							</li>
+						
 						</ul>
 					</div>
 				</div>
 
 				<div class="col-lg-3 col-md-6">
 					<div class="single-widget">
-						<h3>Quick Links</h3>
+						<h3>Policy Links</h3>
 
 						<ul>
 							<li>
-								<a href="#">
+								<a href="/terms_and_conditions">
 									<i class="bx bx-chevrons-right"></i>
-									Security
+									Terms and Conditions
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="/privacy_policy">
 									<i class="bx bx-chevrons-right"></i>
-									Protection
+									Privacy Policy
 								</a>
 							</li>
+							
 							<li>
 								<a href="#">
 									<i class="bx bx-chevrons-right"></i>
-									Antivirus Packages
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<i class="bx bx-chevrons-right"></i>
-									Security App
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<i class="bx bx-chevrons-right"></i>
-									Website Security
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<i class="bx bx-chevrons-right"></i>
-									Digital Security
+									Return Policy
 								</a>
 							</li>
 						</ul>
