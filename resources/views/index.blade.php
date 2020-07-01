@@ -11,15 +11,13 @@
 							<div class="banner-text">
 								<span class="wow fadeInDown" data-wow-delay="1s">Experts in Refurbished Computers and Gadgets</span>
 								<h1 class="wow fadeInLeft" data-wow-delay="1s">Why call a geek, when you can call a professional?</h1>
-								<p class="wow fadeInRight" data-wow-delay="1s">Lorem ipsum dolor sit amet consectetur
-									adipisicing elit. Nihil architecto laborum eaque! Deserunt maxime, minus quas
-									molestiae reiciendis esse natus nisi iure.</p>
+								<p class="wow fadeInRight" data-wow-delay="1s">We offer professional high-tech repair solutions, sale of refurbished gadgets, system setup and device installations.</p>
 
 								<div class="banner-btn wow fadeInUp" data-wow-delay="1s">
-									<a class="default-btn" href="pricing.html">
-										Booking Now
+									<a class="default-btn" href="/bookings">
+										Book Now
 									</a>
-									<a class="default-btn active" href="about.html">
+									<a class="default-btn active" href="/about">
 										About Us
 									</a>
 								</div>
@@ -88,8 +86,7 @@
 		<div class="container">
 			<div class="section-title">
 				<h2>We are professionals in</h2>
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus quam neque quibusdam corrupti
-					aspernatur corporis alias nisi dolorum expedita veritatis voluptates minima.</p>
+				<p>We provide our customers with the following high quality services with an excellent customer service and a quick turnaround.</p>
 			</div>
 
 			<div class="row">
@@ -97,8 +94,7 @@
 					<div class="single-security">
 						<i class="flaticon-website"></i>
 						<h3>Computer Repairs</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor sit amet,
-							dolor consectetur</p>
+						<p>We refurbish and repair old computers,ensuring that their functionality is optimum  </p>
 
 						<a href="#" class="read-more">
 							Read More
@@ -111,22 +107,7 @@
 					<div class="single-security">
 						<i class="flaticon-profile"></i>
 						<h3>Electronics Repairs</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor sit amet,
-							dolor consectetur</p>
-
-						<a href="#" class="read-more">
-							Read More
-						</a>
-						<img src="{{asset('assets/img/shape/6.png')}}" alt="Image">
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-sm-6">
-					<div class="single-security">
-						<i class="flaticon-content"></i>
-						<h3>Console Repair</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor sit amet,
-							dolor consectetur</p>
+						<p>We save you the cost of constantly changing your gadgets while they can be made a new</p>
 
 						<a href="#" class="read-more">
 							Read More
@@ -139,8 +120,20 @@
 					<div class="single-security">
 						<i class="flaticon-cyber"></i>
 						<h3>PC Upgrades</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor sit amet,
-							dolor consectetur</p>
+						<p>We offer different types of computer software and hardware upgrades, we ensure that your PC is always at its best</p>
+
+						<a href="#" class="read-more">
+							Read More
+						</a>
+						<img src="{{asset('assets/img/shape/6.png')}}" alt="Image">
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-sm-6">
+					<div class="single-security">
+						<i class="flaticon-cyber"></i>
+						<h3>Gadget Sales</h3>
+						<p>We buy, rent and sell refurbished gadgets of different types. We get you covered by helping you save more</p>
 
 						<a href="#" class="read-more">
 							Read More
@@ -152,9 +145,8 @@
 				<div class="col-lg-4 col-sm-6">
 					<div class="single-security">
 						<i class="flaticon-profile"></i>
-						<h3>Electronics Recovery</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor sit amet,
-							dolor consectetur</p>
+						<h3>Data Recovery</h3>
+						<p>We also recover data lost due to delets, crashes or virus attacks. Nothing can truly be lost</p>
 
 						<a href="#" class="read-more">
 							Read More
@@ -166,9 +158,8 @@
 				<div class="col-lg-4 col-sm-6">
 					<div class="single-security">
 						<i class="flaticon-profile"></i>
-						<h3>Check before purchase</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor sit amet,
-							dolor consectetur</p>
+						<h3>System Setup</h3>
+						<p>We undertake complete system installation and setup. We make it easier for you and your organization </p>
 
 						<a href="#" class="read-more">
 							Read More
@@ -193,9 +184,10 @@
 				<div class="col-lg-6 pl-0">
 					<div class="transform-content">
 						<h2>Fast and Quality Services at a Click</h2>
-						<p>Lorem ipsum dolor sit elit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt
-							labore et dolore magna aliqua. Quis ipsum suspendisse Workflow Be productive consectetur
-							adipiscing elit, sed</p>
+						<p>Our vision is to grow and develop as #1 service center fortechnology users accross the country.
+						 We intend to achieve this by converting all opportunities into sustainable business growth,
+						  nurturing a culture of innovation, and providing better value to our partners and consumers
+						   while also offering best-in-class services.</p>
 
 						<div class="skill-bar" data-percentage="99%">
 							<h4 class="progress-title-holder">
@@ -277,8 +269,7 @@
 		<div class="container">
 			<div class="section-title">
 				<h2>Buy Our Plans & Packages</h2>
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus quam neque quibusdam corrupti
-					aspernatur corporis alias nisi dolorum expedita veritatis voluptates minima.</p>
+				<p>Here are some of our business packages aimed at providing you with the best-in-class services at the minimum cost.</p>
 			</div>
 
 			<div class="row">
@@ -413,9 +404,7 @@
 				<div class="col-lg-6">
 					<div class="choose-wrap p-0">
 						<h2>Why Choose Us</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-							viverra maecenas accumsan lacus vel.</p>
+						<p>We provide innovative repair services for your computers, laptops, and other high-tech devices and gadgets. We alsp provide you with other quality technical solutions like sales, hire and installation servies all at a click </p>
 
 						<ul class="mt-30">
 							<li>
@@ -424,16 +413,16 @@
 							</li>
 							<li>
 								<i class="bx bx-check"></i>
-								We are always ready for your growth
+								We are always ready to serve you better
 							</li>
 							<li>
 								<i class="bx bx-check"></i>
-								We understand security and compliance
+								We value your time and money
 							</li>
 						</ul>
 
 						<a href="#" class="default-btn mt-30">
-							Know Details
+							Request Quote
 						</a>
 					</div>
 				</div>
@@ -447,8 +436,7 @@
 		<div class="container">
 			<div class="section-title">
 				<h2>Our Expert Team</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt labore et
-					dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+				<p>Meet our talented team of experts, whose duty is to constantly ensure that your requests are properly handled and that your gadgets are functional.</p>
 			</div>
 
 			<div class="row">
@@ -601,7 +589,7 @@
 	<!-- End Team Area -->
 
 	<!-- Start Solutions Area -->
-	<section class="project-area pb-100">
+	<!-- <section class="project-area pb-100">
 		<div class="container-fluid">
 			<div class="section-title">
 				<h2>Genicks Recent Projects</h2>
@@ -646,7 +634,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- End Solutions Area -->
 
 	<!-- Start Graph Area -->
