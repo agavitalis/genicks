@@ -28,31 +28,30 @@
                 <div class="col-lg-6">
                     <div class="cybersecurity-content">
                         <h2>PC and IT Equipment Repairs</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+                        <p>We undertake repairs and maintenance of PC and different types of IC equipments. We ensure optimum performance and zero down time .</p>
 
                         <div class="row">
                             <div class="col-lg-6 col-sm-6">
                                 <ul class="cybersecurity-item">
                                     <li>
                                         <i class="bx bx-check"></i>
-                                        Managed Web Application
+                                       Computer repairs
                                     </li>
                                     <li>
                                         <i class="bx bx-check"></i>
-                                        SIEM Threat Detection
+                                        Laptop repairs
                                     </li>
                                     <li>
                                         <i class="bx bx-check"></i>
-                                        Content Delivery Network
+                                       Tablet repairs
                                     </li>
                                     <li>
                                         <i class="bx bx-check"></i>
-                                        Website Hack Repair
+                                        Smartphone repairs
                                     </li>
                                     <li>
                                         <i class="bx bx-check"></i>
-                                        Instant Malware Removal
+                                        Printer repairs
                                     </li>
                                 </ul>
                             </div>
@@ -61,7 +60,15 @@
                                 <ul>
                                     <li>
                                         <i class="bx bx-check"></i>
-                                        Instant Malware Removal
+                                        Switch repairs
+                                    </li>
+                                    <li>
+                                        <i class="bx bx-check"></i>
+                                        Router repairs
+                                    </li>
+                                    <li>
+                                        <i class="bx bx-check"></i>
+                                        Server repairs
                                     </li>
                                     <li>
                                         <i class="bx bx-check"></i>
@@ -69,15 +76,7 @@
                                     </li>
                                     <li>
                                         <i class="bx bx-check"></i>
-                                        Instant Malware Removal
-                                    </li>
-                                    <li>
-                                        <i class="bx bx-check"></i>
-                                        Instant Malware Removal
-                                    </li>
-                                    <li>
-                                        <i class="bx bx-check"></i>
-                                        Instant Malware Removal
+                                        Upgrades of all kinds
                                     </li>
                                 </ul>
                             </div>
@@ -104,15 +103,14 @@
                 <div class="col-lg-6">
                     <div class="complete-content">
                         <h2>IT Equipment Lease and Rental Services </h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor elit
-                            incididunt ut labore et dolore magna aliqua. Quis ipsum</p>
+                        <p>We lease different types of IT infrastructure equipments for both long term and short term uses</p>
 
                         <div class="row">
                             <div class="col-lg-6 col-sm-6">
                                 <div class="single-security">
                                     <i class="flaticon-order"></i>
-                                    <h3>Check and Search Hazards</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    <h3>Routers and Switch Lease</h3>
+                                    <p>With our network equipments, you can deploy make shift networks
                                     </p>
                                 </div>
                             </div>
@@ -120,8 +118,8 @@
                             <div class="col-lg-6 col-sm-6">
                                 <div class="single-security">
                                     <i class="flaticon-anti-virus-software"></i>
-                                    <h3>Install and Configure Software</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    <h3>Computer Lease</h3>
+                                    <p>We have over 1000 Smart computers, ready for lease. We also undertake deploy processes
                                     </p>
                                 </div>
                             </div>
@@ -129,8 +127,8 @@
                             <div class="col-lg-6 col-sm-6">
                                 <div class="single-security mb-0 mb-rs-need">
                                     <i class="flaticon-scientist"></i>
-                                    <h3>Departure of the Our Experts</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    <h3>Security Gadgets Lease</h3>
+                                    <p>We lease out different security and monitoring devices like CCTVs and the likes
                                     </p>
                                 </div>
                             </div>
@@ -138,8 +136,8 @@
                             <div class="col-lg-6 col-sm-6">
                                 <div class="single-security mb-0">
                                     <i class="flaticon-technical-support"></i>
-                                    <h3>24/7 Support and Remote Admit</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    <h3>Power and Inverters</h3>
+                                    <p>We lease power inverters and portable solar devices for your optimum power supply
                                     </p>
                                 </div>
                             </div>
@@ -175,11 +173,7 @@
                                             CCTV
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="#">
-                                            GDPR
-                                        </a>
-                                    </li>
+                                   
                                     <li>
                                         <a href="#">
                                             Encryption
@@ -194,67 +188,38 @@
 
                                 <div class="tab_content">
                                     <div class="tabs_item">
-                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo ducimus vero,
-                                            vero corporis voluptates beatae pariatur laudantium, fugiat illum ab
-                                            deserunt nostrum aliquid quisquam esse? Voluptatibus quia velit numquam esse
-                                            porro ipsum dolor, sit amet consectetur adipisicing elit. Illo ducimus vero,
-                                            corporis.</p>
+                                        <p>We install and manage service intercom for offices, hotels, schools and enterprices.</p>
 
-                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis,
-                                            soluta, aspernatur dolorum sequi quisquam ullam in pariatur nihil dolorem
-                                            cumque excepturi totam. Qui excepturi quasi cumque placeat fuga. Ea, eius?
+                                        <p> Having understood how vital good communication is in business, we offer the best of it kind
+                                        in quality communication gadgets. Our service engineers and procure team has all it takes to get the job done.
                                         </p>
                                     </div>
 
                                     <div class="tabs_item">
-                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo ducimus vero,
-                                            vero corporis voluptates beatae pariatur laudantium, fugiat illum ab
-                                            deserunt nostrum aliquid quisquam esse? Voluptatibus quia velit numquam esse
-                                            porro ipsum dolor, sit amet consectetur adipisicing elit. Illo ducimus vero,
-                                            corporis.</p>
+                                        <p>The need to safeguard live and property cannot be over emphasised, thus after health comes security</p>
 
-                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis,
-                                            soluta, aspernatur dolorum sequi quisquam ullam in pariatur nihil dolorem
-                                            cumque excepturi totam. Qui excepturi quasi cumque placeat fuga. Ea, eius?
+                                        <p>At Genicks we provide and offer installation services for different types of security and monitoring devices.
+                                        Our security experts partners with the best companies to ensure that top notch servies are delivered. Safty is wealth!
+
                                         </p>
                                     </div>
 
                                     <div class="tabs_item">
-                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo ducimus vero,
-                                            vero corporis voluptates beatae pariatur laudantium, fugiat illum ab
-                                            deserunt nostrum aliquid quisquam esse? Voluptatibus quia velit numquam esse
-                                            porro ipsum dolor, sit amet consectetur adipisicing elit. Illo ducimus vero,
-                                            corporis.</p>
+                                        <p>Privacy as a term have always been in illusion in our current society, especially with the growth of internet and technology.</p>
 
-                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis,
-                                            soluta, aspernatur dolorum sequi quisquam ullam in pariatur nihil dolorem
-                                            cumque excepturi totam. Qui excepturi quasi cumque placeat fuga. Ea, eius?
+                                        <p> Our Engineers at Genicks can give you that data privacy you have ever dreamt off. We ensure that our clients 
+                                        applications and data are well encrypted using the best algorithms. Thus ensuring that their data are safe.
                                         </p>
                                     </div>
 
                                     <div class="tabs_item">
-                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo ducimus vero,
-                                            vero corporis voluptates beatae pariatur laudantium, fugiat illum ab
-                                            deserunt nostrum aliquid quisquam esse? Voluptatibus quia velit numquam esse
-                                            porro ipsum dolor, sit amet consectetur adipisicing elit. Illo ducimus vero,
-                                            corporis.</p>
+                                        <p>We aim to provide our clients with affordable IT equpments, while helping them recover their devices’ operability and
+                                        also educate them on how to avoid such issues in the future.</p>
 
-                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis,
-                                            soluta, aspernatur dolorum sequi quisquam ullam in pariatur nihil dolorem
-                                            cumque excepturi totam. Qui excepturi quasi cumque placeat fuga. Ea, eius?
-                                        </p>
-                                    </div>
-
-                                    <div class="tabs_item">
-                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo ducimus vero,
-                                            vero corporis voluptates beatae pariatur laudantium, fugiat illum ab
-                                            deserunt nostrum aliquid quisquam esse? Voluptatibus quia velit numquam esse
-                                            porro ipsum dolor, sit amet consectetur adipisicing elit. Illo ducimus vero,
-                                            corporis.</p>
-
-                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis,
-                                            soluta, aspernatur dolorum sequi quisquam ullam in pariatur nihil dolorem
-                                            cumque excepturi totam. Qui excepturi quasi cumque placeat fuga. Ea, eius?
+                                        <p> Our team also
+                                          strives to offer top-notch customer service through consulting our regular
+                                           and new customers on how to easily install software and how basic maintenance
+                                            of their computers can help them.
                                         </p>
                                     </div>
                                 </div>
@@ -286,29 +251,25 @@
                 <div class="col-lg-6">
                     <div class="approach-content">
                         <h2>Sales of refurbished IT Equipments</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Quis ipsumv</p>
+                        <p>Save more when you purchase quality refurbished gadgets form Genicks.</p>
 
                         <ul>
                             <li>
                                 <i class="flaticon-cyber"></i>
                                 <h3>Computers</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut suspendisse ultrices</p>
+                                <p>We sale quality and affordable refurbished computers. We ensure you get the best while less spending. </p>
                             </li>
 
                             <li>
                                 <i class="flaticon-cyber-security"></i>
                                 <h3>Networking Equipments</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut suspendisse ultrices</p>
+                                <p>We also sale refurbished networking equipments such as routers, switches and servers. Our gadgets are quality with zero lag time</p>
                             </li>
 
                             <li>
                                 <i class="flaticon-profile"></i>
                                 <h3>Security and Monitoring Equipments</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut suspendisse ultrices</p>
+                                <p>Quality is our trademark, our refurbished security devices are best of it kind. We asssure you are secured even with a low budget</p>
                             </li>
                         </ul>
                     </div>
@@ -323,14 +284,12 @@
         <div class="container">
             <div class="section-title white-title">
                 <h2>What Client’s Say About Us</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus quam neque quibusdam corrupti
-                    aspernatur corporis alias nisi dolorum expedita veritatis voluptates minima.</p>
+                <p>The importance of sincere feedbacks is over amazing. it has kept us going and helped us improve in many ways. Here are what some of our customers have to say</p>
             </div>
             <div class="client-wrap owl-carousel owl-theme">
                 <div class="single-client">
                     <i class="quotes bx bxs-quote-alt-left"></i>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et
-                        dolore.</p>
+                    <p>Genicks made me happy. Even when I taught the PC is dead, they made it seem like margic .</p>
                     <ul>
                         <li>
                             <i class="bx bxs-star"></i>
@@ -351,13 +310,12 @@
                     <div class="client-img">
                         <img src="assets/img/client-img/1.jpg" alt="Image">
                         <h3>Alen Meair</h3>
-                        <span>Developer</span>
+                        <span>Investor</span>
                     </div>
                 </div>
                 <div class="single-client">
                     <i class="quotes bx bxs-quote-alt-left"></i>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et
-                        dolore.</p>
+                    <p>Genicks rental services just came at the point I needed them most. They supplied exactly as I described. I love doing business with them.</p>
                     <ul>
                         <li>
                             <i class="bx bxs-star"></i>
@@ -383,8 +341,7 @@
                 </div>
                 <div class="single-client">
                     <i class="quotes bx bxs-quote-alt-left"></i>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et
-                        dolore.</p>
+                    <p>Genicks help me get a quality PC for my design work. I couldnt afford a brand new PC with high specifications, but Genicks refurbished PC is giving me all I need.</p>
                     <ul>
                         <li>
                             <i class="bx bxs-star"></i>
@@ -410,8 +367,7 @@
                 </div>
                 <div class="single-client">
                     <i class="quotes bx bxs-quote-alt-left"></i>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et
-                        dolore.</p>
+                    <p>I love their services, their remote troubleshooting has helped me twice</p>
                     <ul>
                         <li>
                             <i class="bx bxs-star"></i>
