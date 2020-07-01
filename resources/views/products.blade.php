@@ -65,10 +65,10 @@
 
 						<div class="product-content">
 							<h3><a href="shop-details.html">Omega DHL22 F600 monitor LCD 21.5″</a></h3>
-							<div class="price">
+							<!-- <div class="price">
 								<span class="new">$55.50</span>
 								<span class="old">$60.50</span>
-							</div>
+							</div> -->
 							<div class="rating">
 								<i class="bx bxs-star"></i>
 								<i class="bx bxs-star"></i>
@@ -93,10 +93,10 @@
 						</div>
 						<div class="product-content">
 							<h3><a href="shop-details.html">3.2 Mp IP-camera TR-E800 (3.6 mm) with Wi-Fi</a></h3>
-							<div class="price">
+							<!-- <div class="price">
 								<span class="new">$54.50</span>
 								<span class="old">$65.50</span>
-							</div>
+							</div> -->
 							<div class="rating">
 								<i class="bx bxs-star"></i>
 								<i class="bx bxs-star"></i>
@@ -120,10 +120,10 @@
 						</div>
 						<div class="product-content">
 							<h3><a href="shop-details.html">Camera battery TR-D233 (3.6 mm)</a></h3>
-							<div class="price">
+							<!-- <div class="price">
 								<span class="new">$14.50</span>
 								<span class="old">$15.50</span>
-							</div>
+							</div> -->
 							<div class="rating">
 								<i class="bx bxs-star"></i>
 								<i class="bx bxs-star"></i>
@@ -147,10 +147,10 @@
 						</div>
 						<div class="product-content">
 							<h3><a href="shop-details.html">Network camera 720p Enigma DS-I100 (2.8 mm)</a></h3>
-							<div class="price">
+							<!-- <div class="price">
 								<span class="new">$10.00</span>
 								<span class="old">$20.00</span>
-							</div>
+							</div> -->
 							<div class="rating">
 								<i class="bx bxs-star"></i>
 								<i class="bx bxs-star"></i>
@@ -174,9 +174,9 @@
 						</div>
 						<div class="product-content">
 							<h3><a href="shop-details.html">2.8 Mp IP-camera TR-D234 (3.6 mm)</a></h3>
-							<div class="price">
+							<!-- <div class="price">
 								<span class="new">$55.50</span>
-							</div>
+							</div> -->
 							<div class="rating">
 								<i class="bx bxs-star"></i>
 								<i class="bx bxs-star"></i>
@@ -200,10 +200,10 @@
 						</div>
 						<div class="product-content">
 							<h3><a href="shop-details.html">1.3 Mp IP-camera TR-D2111 (3.6 mm) with Wi-Fi</a></h3>
-							<div class="price">
+							<!-- <div class="price">
 								<span class="new">$15.00</span>
 								<span class="old">$20.50</span>
-							</div>
+							</div> -->
 							<div class="rating">
 								<i class="bx bxs-star"></i>
 								<i class="bx bxs-star"></i>
