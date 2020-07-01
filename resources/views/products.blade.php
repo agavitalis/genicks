@@ -58,8 +58,8 @@
 								<img src="assets/img/product/1.jpg" alt="Image">
 							</a>
 
-							<a href="cart.html" class="add-to-cart-btn">
-								Add To Cart
+							<a href="#" class="add-to-cart-btn">
+								Request Quote
 							</a>
 						</div>
 
@@ -86,8 +86,8 @@
 							<a href="shop-details.html">
 								<img src="assets/img/product/2.jpg" alt="Image">
 							</a>
-							<a href="cart.html" class="add-to-cart-btn">
-								Add To Cart
+							<a href="#" class="add-to-cart-btn">
+								Request Quote
 							</a>
 							<div class="sale-btn">Sale!</div>
 						</div>
@@ -114,8 +114,8 @@
 							<a href="shop-details.html">
 								<img src="assets/img/product/3.jpg" alt="Image">
 							</a>
-							<a href="cart.html" class="add-to-cart-btn">
-								Add To Cart
+							<a href="#" class="add-to-cart-btn">
+								Request Quote
 							</a>
 						</div>
 						<div class="product-content">
@@ -141,8 +141,8 @@
 							<a href="shop-details.html">
 								<img src="assets/img/product/4.jpg" alt="Image">
 							</a>
-							<a href="cart.html" class="add-to-cart-btn">
-								Add To Cart
+							<a href="#" class="add-to-cart-btn">
+								Request Quote
 							</a>
 						</div>
 						<div class="product-content">
@@ -168,8 +168,8 @@
 							<a href="shop-details.html">
 								<img src="assets/img/product/5.jpg" alt="Image">
 							</a>
-							<a href="cart.html" class="add-to-cart-btn">
-								Add To Cart
+							<a href="#" class="add-to-cart-btn">
+								Request Quote
 							</a>
 						</div>
 						<div class="product-content">
@@ -194,8 +194,8 @@
 							<a href="shop-details.html">
 								<img src="assets/img/product/6.jpg" alt="Image">
 							</a>
-							<a href="cart.html" class="add-to-cart-btn">
-								Add To Cart
+							<a href="#" class="add-to-cart-btn">
+								Request Quote
 							</a>
 						</div>
 						<div class="product-content">
