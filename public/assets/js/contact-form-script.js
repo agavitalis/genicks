@@ -23,12 +23,21 @@
         var msg_subject = $("#msg_subject").val();
         var phone_number = $("#phone_number").val();
         var message = $("#message").val();
+        var message = $("#message").val();
+        var _token = $("input[name=_token]").val();
 
 
         $.ajax({
             type: "POST",
-            url: "assets/php/form-process.php",
-            data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&phone_number=" + phone_number + "&message=" + message,
+            url: "/contact",
+            data: {
+                '_token': $('input[name=_token]').val(),
+                "name=" : name,
+                "email=" : email,
+                "msg_subject" : msg_subject,
+                "phone_number": phone_number,
+                "message": message,
+            },
             success : function(text){
                 if (text == "success"){
                     formSuccess();
@@ -38,11 +47,12 @@
                 }
             }
         });
+            
     }
 
     function formSuccess(){
         $("#contactForm")[0].reset();
-        submitMSG(true, "Message Submitted!")
+        submitMSG(true, "Message Submitted!, Our contact personel will get back to you soon")
     }
 
     function formError(){

@@ -18,7 +18,7 @@ Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('index');
 Route::get('/about', 'HomeController@about')->name('about');
-Route::get('/contact', 'HomeController@contact')->name('contact');
+Route::match(['GET','POST'],'/contact','HomeController@contact')->name('contact');
 Route::get('/pricing', 'HomeController@pricing')->name('pricing');
 Route::get('/services', 'HomeController@services')->name('services');
 Route::get('/products', 'HomeController@products')->name('products');
@@ -26,3 +26,12 @@ Route::get('/faq', 'HomeController@faq')->name('faq');
 Route::get('/terms_and_conditions', 'HomeController@terms_and_conditions')->name('terms_and_conditions');
 Route::get('/privacy_policy', 'HomeController@privacy_policy')->name('privacy_policy');
 
+/*
+|--------------------------------------------------------------------------
+| Quotes Routes
+|--------------------------------------------------------------------------
+|
+| Here are routes for the request quote page
+|
+*/
+Route::match(['GET','POST'],'/quote','QuoteRequestController@quote')->name('quote');

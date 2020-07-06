@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Contact;
 
 class HomeController extends Controller
 {
@@ -41,9 +42,26 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function contact()
+    public function contact(Request $request)
     {
-        return view('contact');
+        if($request->isMethod("GET")){
+            return view('contact');
+
+        }else{
+
+            try{
+
+                Contact::create(['name'=> $request->name,'email'=> $request->email, 
+                'phone_number'=> $request->phone_number,'message_subject'=> $request->msg_subject,
+                'message'=> $request->message]);
+                
+                return response()->json(array('success'));
+            } catch (Exception $e) {
+
+                return back()->with('errors', $e);
+            }
+            
+        }
     }
 
     /**

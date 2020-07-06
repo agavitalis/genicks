@@ -142,7 +142,7 @@
 								<!-- Start Other Option -->
 								<div class="others-option">
 									<div class="get-quote">
-										<a href="#" class="default-btn">
+										<a href="/quote" class="default-btn">
 											Get A Quote
 										</a>
 									</div>
@@ -188,7 +188,7 @@
 							<li>
 								<i class="bx bx-location-plus"></i>
 								<span>Address:</span>
-								658 Lane Drive st Riverside. California
+								5501 Peachtree Corners CIR STE 200, OFC 271,Peachtree Corners, GA 30092
 							</li>
 						</ul>
 					</div>
@@ -246,7 +246,7 @@
 								</a>
 							</li>
 							<li>
-								<a href="/faq">
+								<a href="#">
 									<i class="bx bx-chevrons-right"></i>
 									FAQ Questions
 								</a>
@@ -268,13 +268,13 @@
 
 						<ul>
 							<li>
-								<a href="/terms_and_conditions">
+								<a href="#">
 									<i class="bx bx-chevrons-right"></i>
 									Terms and Conditions
 								</a>
 							</li>
 							<li>
-								<a href="/privacy_policy">
+								<a href="#">
 									<i class="bx bx-chevrons-right"></i>
 									Privacy Policy
 								</a>
@@ -308,10 +308,10 @@
 					<div class="condition-privacy">
 						<ul>
 							<li>
-								<a href="/terms_and_conditions">Terms & Condition</a>
+								<a href="#">Terms & Condition</a>
 							</li>
 							<li>
-								<a href="/privacy_policy">Privacy Policy</a>
+								<a href="#">Privacy Policy</a>
 							</li>
 						</ul>
 					</div>
