@@ -32,6 +32,8 @@
 	<link rel="stylesheet" href="{{secure_asset('assets/css/style.css')}}">
 	<!-- Responsive CSS -->
 	<link rel="stylesheet" href="{{secure_asset('assets/css/responsive.css')}}">
+	<!-- Custom CSS -->
+	@yield('styles')
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" href="{{secure_asset('assets/img/favicon.png')}}">
 
@@ -246,7 +248,7 @@
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="/faq">
 									<i class="bx bx-chevrons-right"></i>
 									FAQ Questions
 								</a>
@@ -268,20 +270,20 @@
 
 						<ul>
 							<li>
-								<a href="#">
+								<a href="/terms_and_conditions">
 									<i class="bx bx-chevrons-right"></i>
 									Terms and Conditions
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="/privacy_policy">
 									<i class="bx bx-chevrons-right"></i>
 									Privacy Policy
 								</a>
 							</li>
 							
 							<li>
-								<a href="#">
+								<a href="/return_policy">
 									<i class="bx bx-chevrons-right"></i>
 									Return Policy
 								</a>
@@ -308,10 +310,10 @@
 					<div class="condition-privacy">
 						<ul>
 							<li>
-								<a href="#">Terms & Condition</a>
+								<a href="/terms_and_conditions">Terms & Condition</a>
 							</li>
 							<li>
-								<a href="#">Privacy Policy</a>
+								<a href="/privacy_policy">Privacy Policy</a>
 							</li>
 						</ul>
 					</div>

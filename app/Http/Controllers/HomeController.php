@@ -119,8 +119,18 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function privacy()
+    public function privacy_policy()
     {
-        return view('privacy');
+        return view('privacy_policy');
+    }
+
+    /**
+     * Show the application privacy page.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function return_policy()
+    {
+        return view('return_policy');
     }
 }

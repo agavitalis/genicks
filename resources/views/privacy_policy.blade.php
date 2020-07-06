@@ -1,122 +1,161 @@
 @extends('layouts.app')
 
+
+@section('styles')
+<style>
+	.single-privacy ul li p strong {
+		position: relative;
+		left: 0;
+		top: 0;
+	}
+</style>
+@endsection
+
 @section('content')
 
-	<!-- Start Page Title Area -->
-	<div class="page-title-area bg-7">
-		<div class="container">
-			<div class="page-title-content">
-				<h2>Privacy Policy</h2>
-				<ul>
-					<li>
-						<a href="index.html">
-							Home
-						</a>
-					</li>
 
-					
+<!-- Start Page Title Area -->
+<div class="page-title-area bg-7">
+    <div class="container">
+        <div class="page-title-content">
+            <h2>Privacy Policy</h2>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
 
-					<li>Privacy Policy</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<!-- End Page Title Area -->
+                <li>Privacy Policy</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- End Page Title Area -->
 
-	<!-- Start Terms & Conditions Area -->
-	<section class="terms-conditions ptb-100">
-		<div class="container">
-			<div class="single-privacy">
-				<h3 class="mt-0">Welcome To Trice Privacy Policy</h3>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-					industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-					and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-					leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-					with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-					publishing software like Aldus PageMaker including versions of Lorem Ipsum. scrambled it to make a
-					type specimen book.</p>
+<!-- Start Terms & Conditions Area -->
+<section class="terms-conditions ptb-100">
+    <div class="container">
+        <div class="single-privacy">
 
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-					industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-					and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-					leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-					with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-					publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply
-					dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-					dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
 
-				<h3>Welcome To Help Trice Privacy</h3>
-				<ul>
-					<li>
-						<p><strong>01.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, tempora
-							laboriosam porro fugit debitis, dolorem natus assumenda facilis in ut reiciendis laborum
-							sapiente minima libero quas praesentium ex rerum eos. Lorem ipsum dolor sit amet consectetur
-							adipisicing elit. Voluptates nulla porro commodi illum necessitatibus, dicta officiis dolore
-							iusto quaerat officia alias blanditiis, in ea non eveniet? Ipsam neque harum in. quas
-							praesentium ex rerum eos</p>
-					</li>
-					<li>
-						<p><strong>02.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, tempora
-							laboriosam porro fugit debitis, dolorem natus assumenda facilis in ut reiciendis laborum
-							sapiente minima libero quas praesentium ex rerum eos. Lorem ipsum, dolor sit amet
-							consectetur adipisicing elit. Fugit necessitatibus similique quia nostrum ullam repellendus
-							ea, eum ipsum voluptate odit harum reprehenderit, nesciunt eius animi totam aliquam dicta
-							officia minima!</p>
-					</li>
-					<li>
-						<p><strong>03.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, tempora
-							laboriosam porro fugit debitis, dolorem natus assumenda facilis in ut reiciendis laborum
-							sapiente minima libero quas praesentium ex rerum eos. Lorem ipsum dolor sit amet consectetur
-							adipisicing elit. Rerum magnam cum a doloremque? Eveniet, eum consequatur? Provident
-							accusantium, libero molestiae consequuntur quisquam laboriosam dolor voluptas? Eveniet!</p>
-					</li>
-					<li>
-						<p><strong>04.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, tempora
-							laboriosam porro fugit debitis, dolorem natus assumenda facilis in ut reiciendis laborum
-							sapiente minima libero quas praesentium ex rerum eos. Lorem ipsum dolor sit, amet
-							consectetur adipisicing elit. Voluptatem atque sapiente debitis distinctio mollitia deleniti
-							beatae nostrum reprehenderit aperiam nobis recusandae voluptas harum, totam necessitatibus
-							quia adipisci.</p>
-					</li>
-					<li>
-						<p><strong>05.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, tempora
-							laboriosam porro fugit debitis, dolorem natus assumenda facilis in ut reiciendis laborum
-							sapiente minima libero quas praesentium ex rerum eos. Lorem ipsum dolor sit amet consectetur
-							adipisicing elit. Excepturi voluptatibus voluptatem porro aliquid illo optio necessitatibus,
-							rem in aspernatur natus voluptate dolorum nihil repellat quia assumenda impedit eligendi,
-							doloremque?</p>
-					</li>
-				</ul>
+            <h3 class="mt-0">Welcome To Genicks Privacy Policy</h3>
+            <!-- <p>.</p> -->
 
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-					industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-					and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-					leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-					with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-					publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply
-					dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-					dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+            <ul>
 
-				<h3>Welcome To Services Trice Policy</h3>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-					industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-					and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-					leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-					with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-					publishing software like Aldus PageMaker including versions of Lorem Ipsum electronic typesetting,
-					remaining essentially.</p>
+                <li>
+                    <p><strong>Information We Collect About You: </strong>
 
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-					industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-					and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-					leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-					with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-					publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply
-					dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-					dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
-			</div>
-		</div>
-	</section>
-	<!-- End Terms & Conditions Area -->
+                        We collect your personal information directly from you through your interactions, use, and
+                        experiences with our website, products, and services. We also obtain your information indirectly
+                        from our Business Partners and third-party sources. For more information about the types and
+                        sources of information we collect about you refer to: Information We Collect About You.
+                    </p>
+                </li>
+
+                <li>
+                    <p><strong>How We Use And Share Your Information: </strong>
+
+
+                        We use your personal information to provide you with our products and services, improve our
+                        products and services, tailor your customer experience with Genicks, personalize our products and
+                        services and make recommendations to you, advertise and market to you, and to comply with
+                        applicable laws. We also use your information to improve the safety and security of our website,
+                        products, and services, which includes detecting, preventing investigating, and responding to
+                        risks in these areas that could harm you or Genicks.
+
+
+                        We may share your personal information with our affiliated companies and Business Partners to
+                        perform work for us, including completing any transaction, providing you with the latest
+                        information about our products, services, or offering you our latest promotions.
+                    </p>
+                </li>
+
+                <li>
+                    <p><strong>Our Use Of Cookies And Other Technologies: </strong>
+                        Genicks websites, online services, interactive applications, email messages, and advertisements
+                        may use cookies and similar technologies to help us tailor your experience, better understand
+                        your preferences, tell us which parts of our websites you have visited, facilitate and measure
+                        the effectiveness of our interest-based advertisements and web searches. We also use web beacons
+                        to help deliver cookies and gather usage and performance data. You can make choices about how
+                        Genicks and our Business Partners reach you by clicking here. For more information refer to Our Use
+                        of Cookies and Other Technologies.
+                    </p>
+                </li>
+
+                <li>
+                    <p><strong> Accessing, Delete, Or Update Your Information, And Contact Us: </strong>
+
+                        You can exercise your Consumer Privacy Rights in relation to your personal information by
+                        sending an email to privacy@genicks.com or visiting our DSR web portal if you have a registered
+                        Genicks MyAccount. For more information about your privacy rights, please refer to Your Consumer
+                        Privacy Rights.
+
+                        If you have a privacy query, issue, concern, or complaint, please contact us at privacy@genicks.com
+                    </p>
+                </li>
+
+                <li>
+                    <p><strong>Special Considerations For California Residents: </strong>
+
+                        As a California resident, you have certain consumer privacy rights which you can learn about and
+                        exercise as described here.
+
+                        If you want to learn more about the categories of the personal information we collect about you
+                        and how we share your personal information with our Business Partners, click here.
+
+                        We do not “sell” your personal information as currently defined under the California Consumer
+                        Protection Act to any Business Partners.
+                    </p>
+                </li>
+
+                <li>
+                    <p><strong>Your Marketing Choices: </strong>
+
+
+                        You have choices about how Genicks reaches you with marketing offers and about other uses of your
+                        information. For more information about your choices refer to Your Marketing Choices and Our Use
+                        of Cookies and Other Technologies.
+                    </p>
+                </li>
+
+                <li>
+                    <p><strong>Business Partner: </strong>
+
+
+                        “Business Partner” means any contractor, supplier, service provider, debit, or credit card
+                        processor with whom we have a business relationship to provide you with our offers, products,
+                        services, process your payment, better predict and deliver content, and market offers that may
+                        interest you.
+                    </p>
+                </li>
+
+                <li>
+                    <p><strong>Changes To This Privacy Statement: </strong>
+
+
+                        We may make changes to this Privacy Statement when necessary to provide greater transparency or
+                        in response to:
+
+                        • Feedback from our customers, regulators, industry, or other stakeholders.
+
+                        • Changes in our privacy practices, products, or services.
+
+                        • Changes in applicable privacy laws.
+
+
+                        If there are material changes to the Privacy Statement, we will revise the “last updated” date
+                        at the bottom of the privacy statement. We encourage you to periodically review this Privacy
+                        Statement to learn how Genicks is protecting your information.
+                    </p>
+                </li>
+            </ul>
+
+
+        </div>
+    </div>
+</section>
+<!-- End Terms & Conditions Area -->
 
 @endsection

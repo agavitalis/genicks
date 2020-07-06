@@ -25,6 +25,7 @@ Route::get('/products', 'HomeController@products')->name('products');
 Route::get('/faq', 'HomeController@faq')->name('faq');
 Route::get('/terms_and_conditions', 'HomeController@terms_and_conditions')->name('terms_and_conditions');
 Route::get('/privacy_policy', 'HomeController@privacy_policy')->name('privacy_policy');
+Route::get('/return_policy', 'HomeController@return_policy')->name('return_policy');
 
 /*
 |--------------------------------------------------------------------------
