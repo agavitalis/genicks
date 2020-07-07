@@ -9,33 +9,33 @@
 	<meta name="csrf-token" content="{{ csrf_token() }}">
 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="{{secure_asset('assets/css/bootstrap.min.css')}}">
+	<link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
 	<!-- Owl Theme Default CSS -->
-	<link rel="stylesheet" href="{{secure_asset('assets/css/owl.theme.default.min.css')}}">
+	<link rel="stylesheet" href="{{asset('assets/css/owl.theme.default.min.css')}}">
 	<!-- Owl Carousel CSS -->
-	<link rel="stylesheet" href="{{secure_asset('assets/css/owl.carousel.min.css')}}">
+	<link rel="stylesheet" href="{{asset('assets/css/owl.carousel.min.css')}}">
 	<!-- Owl Magnific CSS -->
-	<link rel="stylesheet" href="{{secure_asset('assets/css/magnific-popup.css')}}">
+	<link rel="stylesheet" href="{{asset('assets/css/magnific-popup.css')}}">
 	<!-- Animate CSS -->
-	<link rel="stylesheet" href="{{secure_asset('assets/css/animate.css')}}">
+	<link rel="stylesheet" href="{{asset('assets/css/animate.css')}}">
 	<!-- Boxicons CSS -->
-	<link rel="stylesheet" href="{{secure_asset('assets/css/boxicons.min.css')}}">
+	<link rel="stylesheet" href="{{asset('assets/css/boxicons.min.css')}}">
 	<!-- Flaticon CSS -->
-	<link rel="stylesheet" href="{{secure_asset('assets/css/flaticon.css')}}">
+	<link rel="stylesheet" href="{{asset('assets/css/flaticon.css')}}">
 	<!-- Meanmenu CSS -->
-	<link rel="stylesheet" href="{{secure_asset('assets/css/meanmenu.css')}}">
+	<link rel="stylesheet" href="{{asset('assets/css/meanmenu.css')}}">
 	<!-- Nice Select CSS -->
-	<link rel="stylesheet" href="{{secure_asset('assets/css/nice-select.css')}}">
+	<link rel="stylesheet" href="{{asset('assets/css/nice-select.css')}}">
 	<!-- Odometer CSS-->
-	<link rel="stylesheet" href="{{secure_asset('assets/css/odometer.css')}}">
+	<link rel="stylesheet" href="{{asset('assets/css/odometer.css')}}">
 	<!-- Style CSS -->
-	<link rel="stylesheet" href="{{secure_asset('assets/css/style.css')}}">
+	<link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
 	<!-- Responsive CSS -->
-	<link rel="stylesheet" href="{{secure_asset('assets/css/responsive.css')}}">
+	<link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}">
 	<!-- Custom CSS -->
 	@yield('styles')
 	<!-- Favicon -->
-	<link rel="icon" type="image/png" href="{{secure_asset('assets/img/favicon.png')}}">
+	<link rel="icon" type="image/png" href="{{asset('assets/img/favicon.png')}}">
 
 	<!-- Title -->
 	<title>Genicks - Refurbished Computer and Sales Services</title>
@@ -106,7 +106,7 @@
 				<!-- Menu For Mobile Device -->
 				<div class="mobile-nav">
 					<a href="/" class="logo">
-						<img src="{{secure_asset('assets/img/logo.png')}}" alt="Logo">
+						<img src="{{asset('assets/img/logo.png')}}" alt="Logo">
 					</a>
 				</div>
 
@@ -115,7 +115,7 @@
 					<nav class="navbar navbar-expand-md">
 						<div class="container-fluid">
 							<a class="navbar-brand" href="/">
-								<img src="{{secure_asset('assets/img/logo.png')}}" alt="Logo">
+								<img src="{{asset('assets/img/logo.png')}}" alt="Logo">
 							</a>
 
 							<div class="collapse navbar-collapse mean-menu">
@@ -332,35 +332,35 @@
 
 
 	<!-- Jquery-3.5.1.Slim.Min.JS -->
-	<script src="{{secure_asset('assets/js/jquery-3.5.1.slim.min.js')}}"></script>
+	<script src="{{asset('assets/js/jquery-3.5.1.slim.min.js')}}"></script>
 	<!-- Popper JS -->
-	<script src="{{secure_asset('assets/js/popper.min.js')}}"></script>
+	<script src="{{asset('assets/js/popper.min.js')}}"></script>
 	<!-- Bootstrap JS -->
-	<script src="{{secure_asset('assets/js/bootstrap.min.js')}}"></script>
+	<script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
 	<!-- Meanmenu JS -->
-	<script src="{{secure_asset('assets/js/jquery.meanmenu.js')}}"></script>
+	<script src="{{asset('assets/js/jquery.meanmenu.js')}}"></script>
 	<!-- Wow JS -->
-	<script src="{{secure_asset('assets/js/wow.min.js')}}"></script>
+	<script src="{{asset('assets/js/wow.min.js')}}"></script>
 	<!-- Owl Carousel JS -->
-	<script src="{{secure_asset('assets/js/owl.carousel.js')}}"></script>
+	<script src="{{asset('assets/js/owl.carousel.js')}}"></script>
 	<!-- Owl Magnific JS -->
-	<script src="{{secure_asset('assets/js/jquery.magnific-popup.min.js')}}"></script>
+	<script src="{{asset('assets/js/jquery.magnific-popup.min.js')}}"></script>
 	<!-- Nice Select JS -->
-	<script src="{{secure_asset('assets/js/jquery.nice-select.min.js')}}"></script>
+	<script src="{{asset('assets/js/jquery.nice-select.min.js')}}"></script>
 	<!-- Parallax JS -->
-	<script src="{{secure_asset('assets/js/parallax.min.js')}}"></script>
+	<script src="{{asset('assets/js/parallax.min.js')}}"></script>
 	<!-- Appear JS -->
-	<script src="{{secure_asset('assets/js/jquery.appear.js')}}"></script>
+	<script src="{{asset('assets/js/jquery.appear.js')}}"></script>
 	<!-- Odometer JS -->
-	<script src="{{secure_asset('assets/js/odometer.min.js')}}"></script>
+	<script src="{{asset('assets/js/odometer.min.js')}}"></script>
 	<!-- Form Validator JS -->
-	<script src="{{secure_asset('assets/js/form-validator.min.js')}}"></script>
+	<script src="{{asset('assets/js/form-validator.min.js')}}"></script>
 	<!-- Contact JS -->
-	<script src="{{secure_asset('assets/js/contact-form-script.js')}}"></script>
+	<script src="{{asset('assets/js/contact-form-script.js')}}"></script>
 	<!-- Ajaxchimp JS -->
-	<script src="{{secure_asset('assets/js/jquery.ajaxchimp.min.js')}}"></script>
+	<script src="{{asset('assets/js/jquery.ajaxchimp.min.js')}}"></script>
 	<!-- Custom JS -->
-	<script src="{{secure_asset('assets/js/custom.js')}}"></script>
+	<script src="{{asset('assets/js/custom.js')}}"></script>
 </body>
 
 </html>
