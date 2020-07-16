@@ -7,7 +7,7 @@
     </a>
     <div class="collapse navbar-collapse" id="navbarVerticalCollapse">
         <ul class="navbar-nav flex-column">
-            <li class="nav-item"><a class="nav-link" href="/home" {{--data-toggle="collapse"--}} role="button"
+            <li class="nav-item"><a class="nav-link" href="/admin_dashboard" role="button"
                     aria-expanded="true" aria-controls="home">
                     <div class="d-flex align-items-center"><span class="nav-link-icon"><span
                                 class="fas fa-chart-pie"></span></span><span>Home</span>
@@ -22,7 +22,7 @@
                 </a>
                 <ul class="nav collapse" id="stories" data-parent="#navbarVerticalCollapse">
                     
-                   <li class="nav-item"><a class="nav-link" href="/add_products">Add Products</a></li>
+                   <li class="nav-item"><a class="nav-link" href="/add_product">Add Product</a></li>
 
                     <li class="nav-item"><a class="nav-link" href="/manage_products">Manage Products</a></li>
 
@@ -50,7 +50,7 @@
                         </ul>
                     </li> -->
                    
-                    <li class="nav-item"><a class="nav-link" href="#">Manage Requests</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/manage_requests">Manage Requests</a></li>
                     
                 </ul>
             </li>
@@ -62,7 +62,7 @@
                 </a>
                 <ul class="nav collapse" id="utilities" data-parent="#navbarVerticalCollapse">
                  
-                    <li class="nav-item"><a class="nav-link" href="/manage_archive">Manage Contacts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/manage_contacts">Manage Contacts</a></li>
                     
                 </ul>
             </li>
