@@ -15,10 +15,15 @@ class CreateQuoteRequestsTable extends Migration
     {
         Schema::create('quote_requests', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('email');
+            $table->string('phone_number');
+            $table->string('service');
+            $table->text('description');
             $table->timestamps();
         });
     }
-
+   
     /**
      * Reverse the migrations.
      *
