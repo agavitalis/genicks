@@ -357,6 +357,8 @@
 	<script src="{{asset('assets/js/form-validator.min.js')}}"></script>
 	<!-- Contact JS -->
 	<script src="{{asset('assets/js/contact-form-script.js')}}"></script>
+	<!-- Quote JS -->
+	<script src="{{asset('assets/js/quote-form-script.js')}}"></script>
 	<!-- Ajaxchimp JS -->
 	<script src="{{asset('assets/js/jquery.ajaxchimp.min.js')}}"></script>
 	<!-- Custom JS -->

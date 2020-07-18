@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\QuoteRequest;
+use Exception;
 
 class QuoteRequestController extends Controller
 {
@@ -23,13 +24,14 @@ class QuoteRequestController extends Controller
             try{
 
                 QuoteRequest::create(['name'=> $request->name,'email'=> $request->email, 
-                'phone_number'=> $request->phone_number,'message_subject'=> $request->msg_subject,
-                'message'=> $request->message]);
+                'phone_number'=> $request->phone_number,'service'=> $request->service,
+                'description'=> $request->description]);
                 
                 return response()->json(array('success'));
+                
             } catch (Exception $e) {
 
-                return back()->with('errors', $e);
+                return response()->json(array($e->getmessage()));
             }
             
         }

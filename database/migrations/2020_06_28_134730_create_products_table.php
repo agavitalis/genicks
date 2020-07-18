@@ -17,10 +17,8 @@ class CreateProductsTable extends Migration
            
             $table->id();
             $table->string('product_name');
-            $table->string('email');
-            $table->string('phone_number');
-            $table->string('message_subject');
-            $table->text('message');
+            $table->string('picture_url');
+            $table->string('status');
             $table->timestamps();
             
         });

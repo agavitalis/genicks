@@ -20,6 +20,7 @@ class CreateContactsTable extends Migration
             $table->string('phone_number');
             $table->string('message_subject');
             $table->text('message');
+            $table->text('status')->default("Unread");
             $table->timestamps();
         });
     }

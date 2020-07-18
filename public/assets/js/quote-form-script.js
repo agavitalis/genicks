@@ -1,9 +1,9 @@
 /*==============================================================*/
-// Genicks Contact Form  JS
+// Genicks Quote Form  JS
 /*==============================================================*/
 (function ($) {
     "use strict"; // Start of use strict
-    $("#contactForm").validator().on("submit", function (event) {
+    $("#quoteForm").validator().on("submit", function (event) {
         if (event.isDefaultPrevented()) {
             // handle the invalid form...
             formError();
@@ -21,25 +21,24 @@
         // Initiate Variables With Form Content
         var name = $("#name").val();
         var email = $("#email").val();
-        var msg_subject = $("#msg_subject").val();
         var phone_number = $("#phone_number").val();
-        var message = $("#message").val();
+        var service = $("#service").val();
+        var description = $("#description").val();
         alert(name)
         $.ajax({
             type: "POST",
-            url: "/contact",
+            url: "/quote",
             data: {
                 '_token': $('input[name=_token]').val(),
                 "name" : name,
                 "email" : email,
-                "msg_subject" : msg_subject,
                 "phone_number": phone_number,
-                "message": message,
+                "service" : service,
+                "description": description,
             },
             success : function(response){
                 if (response == "success"){
                     formSuccess();
-                    $('#contactForm')[0].reset();
                 } else {
                     formError();
                     submitMSG(false,response);
@@ -50,12 +49,12 @@
     }
 
     function formSuccess(){
-        $("#contactForm")[0].reset();
-        submitMSG(true, "Message Submitted!, Our contact personel will get back to you soon")
+        $("#quoteForm")[0].reset();
+        submitMSG(true, "Message Submitted!, Our Sales Reps will get back to you soon")
     }
 
     function formError(){
-        $("#contactForm").removeClass().addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+        $("#quoteForm").removeClass().addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
             $(this).removeClass();
         });
     }

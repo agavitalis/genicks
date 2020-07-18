@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Contact;
+use Exception;
 
 class ContactController extends Controller
 {
@@ -15,6 +16,7 @@ class ContactController extends Controller
     public function contact(Request $request)
     {
         if($request->isMethod("GET")){
+
             return view('contact');
 
         }else{
@@ -24,11 +26,13 @@ class ContactController extends Controller
                 Contact::create(['name'=> $request->name,'email'=> $request->email, 
                 'phone_number'=> $request->phone_number,'message_subject'=> $request->msg_subject,
                 'message'=> $request->message]);
-                
+
                 return response()->json(array('success'));
+                
             } catch (Exception $e) {
 
-                return back()->with('errors', $e);
+                return response()->json(array($e->getMessage()));
+                
             }
             
         }

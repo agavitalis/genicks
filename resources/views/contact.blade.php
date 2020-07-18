@@ -77,7 +77,7 @@
 								<p>Our Sales and Support are 24/7 ready to listen and attend to your quries, complains clearifications, kindly shoot us an email now.</p>
 							</div>
 
-							<form id="contactForm" method="POST">
+							<form id="contactForm">
 								@csrf
 								<div class="row">
 									<div class="col-lg-6 col-sm-6">

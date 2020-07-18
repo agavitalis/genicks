@@ -34,7 +34,7 @@
 								<p>You can request for a quote and our sales rep will sure be in touch</p>
 							</div>
 
-							<form id="contactForm" method="POST">
+							<form id="quoteForm">
 								@csrf
 								<div class="row">
 									<div class="col-lg-6 col-sm-6">
@@ -64,7 +64,7 @@
 
 									<div class="col-lg-6 col-sm-6">
 										<div class="form-group">
-											<input type="text" name="msg_subject" id="msg_subject" class="form-control"
+											<input type="text" name="service" id="service" class="form-control"
 												required data-error="Please enter the name of the product or service"
 												placeholder="Product/Service Name">
 											<div class="help-block with-errors"></div>
@@ -73,7 +73,7 @@
 
 									<div class="col-lg-12 col-md-12">
 										<div class="form-group">
-											<textarea name="message" class="form-control" id="message" cols="30"
+											<textarea name="description" class="form-control" id="description" cols="30"
 												rows="8" required data-error="Write your message here"
 												placeholder="Describe what you would want to know about the above product/service"></textarea>
 											<div class="help-block with-errors"></div>

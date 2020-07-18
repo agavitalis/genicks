@@ -20,6 +20,7 @@ class CreateQuoteRequestsTable extends Migration
             $table->string('phone_number');
             $table->string('service');
             $table->text('description');
+            $table->text('status')->default("Unresolved");
             $table->timestamps();
         });
     }
