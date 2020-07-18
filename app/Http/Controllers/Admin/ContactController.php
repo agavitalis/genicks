@@ -4,11 +4,15 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Contact;
 
 class ContactController extends Controller
 {
-    public function manage_contacts()  {
+    public function manage_contacts(Request $request)  {
 
-        return view('admin.manage_contacts');
+        if($request->isMethod("GET")){
+            $contacts = Contact::paginate(10)->sortByDesc('created_at');
+            return view('admin.manage_contacts',compact('contacts'));
+        }
     }
 }

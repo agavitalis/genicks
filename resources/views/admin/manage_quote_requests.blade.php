@@ -16,7 +16,7 @@
     <div class="card-body">
         <div class="row">
             <div class="col-lg-8">
-                <h3 class="mb-0">Manage Contacts</h3>
+                <h3 class="mb-0">Manage Quote Requests</h3>
                 <a class="btn btn-link pl-0 btn-sm" href="/" target="_blank"> Back to home<span
                         class="fas fa-chevron-right ml-1 fs--2"></span></a>
             </div>
@@ -28,7 +28,7 @@
     <div class="card-header">
         <div class="row align-items-center justify-content-between">
             <div class="col-4 col-sm-auto d-flex align-items-center pr-0">
-                <h5 class="fs-0 mb-0 text-nowrap py-2 py-xl-0">Contact List</h5>
+                <h5 class="fs-0 mb-0 text-nowrap py-2 py-xl-0">Quote Request List</h5>
             </div>
             <div class="col-8 col-sm-auto ml-auto text-right pl-0">
                 <div class="d-none" id="orders-actions">
@@ -78,7 +78,7 @@
                     @php
                         $count = 1;
                     @endphp
-                    @foreach($contacts as $contact)
+                    @foreach($quote_requests as $quote_request)
                         <tr class="btn-reveal-trigger">
                             <td class="py-2 align-middle">
                                 <div class="custom-control custom-checkbox"><input
@@ -87,15 +87,15 @@
                                 </div>
                             </td>
                             <td class="py-2 align-middle white-space-nowrap"><a href="order-details.html">
-                                    <strong>#{{$count}}</strong></a> by <strong>{{$contact->name}}</strong><br /><a
-                                    href="mailto:{{$contact->email}}">{{$contact->email}}</a></td>
-                            <td class="py-2 align-middle">{{$contact->created_at->diffForHumans()}}</td>
-                            <td class="py-2 align-middle  fs-0 font-weight-medium">{{$contact->message_subject}}</td>
-                            <td class="py-2 align-middle">{{$contact->message}}<p
-                                    class="mb-0 text-500">{{$contact->message_subject}}</p>
+                                    <strong>#{{$count}}</strong></a> by <strong>{{$quote_request->name}}</strong><br /><a
+                                    href="mailto:{{$quote_request->email}}">{{$quote_request->email}}</a></td>
+                            <td class="py-2 align-middle">{{$quote_request->created_at->diffForHumans()}}</td>
+                            <td class="py-2 align-middle  fs-0 font-weight-medium">{{$quote_request->service}}</td>
+                            <td class="py-2 align-middle">{{$quote_request->description}}<p
+                                    class="mb-0 text-500">{{$quote_request->service}}</p>
                             </td>
                             <td class="py-2 align-middle text-center fs-0 white-space-nowrap"><span
-                                    class="badge badge rounded-capsule d-block badge-soft-success">{{$contact->status}}<span
+                                    class="badge badge rounded-capsule d-block badge-soft-success">{{$quote_request->status}}<span
                                         class="ml-1 fas fa-check" data-fa-transform="shrink-2"></span></span></td>
                          
                             <td class="py-2 align-middle white-space-nowrap">

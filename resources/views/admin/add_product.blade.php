@@ -35,33 +35,26 @@
                     @csrf
                     <div class="form-group">
                         <label for="name">Product A Name</label>
-                        <input class="form-control" type="text" placeholder="Archieve Name" name='product_name'>
+                        <input class="form-control" type="text" placeholder="Product/Service Name" name='product_name'>
                     </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="form-group">
-                                <label for="name">Old Price</label>
-                                <input class="form-control" type="text" placeholder="Old Price" name='old_price'>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="form-group">
-                                <label for="name">Actual Price</label>
-                                <input class="form-control" type="text" placeholder="Actual Price" name='price'>
-                            </div>
-                        </div>
-
-                    </div>
-
                     <div class="form-group">
-                        <label for="exampleFormControlTextarea1">About Product</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        <label for="name">Product Status</label>
+                        <select  class="form-control"  name="product_status" id="product_status">
+                            <option value="sale">For Sale</option>
+                            <option value="sale">For Rent</option>
+                            <option value="sale">For Lease</option>
+                        </select>
+                    </div>
+                   
+                    <div class="form-group">
+                        <label for="about-product">About Product/Service</label>
+                        <textarea class="form-control" id="about-product" rows="3"
                             name='about_product'></textarea>
                     </div>
 
                     <div class="form-group">
-                        <label for="exampleFormControlFile1">Product Sample Picture</label>
-                        <input class="form-control-file" id="exampleFormControlFile1" type="file" name='picture'>
+                        <label for="sample-picture">Product Sample Picture</label>
+                        <input class="form-control-file" id="sample-picture" type="file" name='product_picture'>
                     </div>
 
                     <button class="btn btn-primary mb-3" type="submit">Save</button>

@@ -4,15 +4,18 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Contact;
+use App\Models\Product;
+use App\Models\QuoteRequest;
 
 class DashboardController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $story_count = 20;
-        $user_count = 50;
-        $gallery_count = 60;
-
-        return view('admin.dashboard',compact('story_count','user_count','gallery_count'));
+        $contactus_count = Contact::count();
+        $quote_count = QuoteRequest::count();
+        $product_count = Product::count();
+      
+        return view('admin.dashboard',compact('contactus_count','quote_count','product_count'));
     }
 }

@@ -25,7 +25,7 @@
         <div class="card-body position-relative">
             <h6>Products<span class="badge badge-soft-warning rounded-capsule ml-2">-0.23%</span></h6>
             <div class="display-4 fs-4 mb-2 font-weight-normal text-sans-serif text-warning"
-                data-countupp='{"count":58386,"format":"alphanumeric"}'>{{$story_count}}</div><a
+                data-countupp='{"count":58386,"format":"alphanumeric"}'>{{$product_count}}</div><a
                 class="font-weight-semi-bold fs--1 text-nowrap" href="#!">Products<span class="fas fa-angle-right ml-1"
                     data-fa-transform="down-1"></span></a>
         </div>
@@ -35,10 +35,10 @@
             style="background-image:url({{ asset('assets/img/illustrations/corner-2.png') }});"></div>
         <!--/.bg-holder-->
         <div class="card-body position-relative">
-            <h6>Requests<span class="badge badge-soft-info rounded-capsule ml-2">0.0%</span></h6>
+            <h6>Quote Requests<span class="badge badge-soft-info rounded-capsule ml-2">0.0%</span></h6>
             <div class="display-4 fs-4 mb-2 font-weight-normal text-sans-serif text-info"
-                data-countupp='{"count":23434,"format":"alphanumeric"}'>{{$gallery_count}}</div><a
-                class="font-weight-semi-bold fs--1 text-nowrap" href="#!">Requests<span class="fas fa-angle-right ml-1"
+                data-countupp='{"count":23434,"format":"alphanumeric"}'>{{$quote_count}}</div><a
+                class="font-weight-semi-bold fs--1 text-nowrap" href="#!">Quote Requests<span class="fas fa-angle-right ml-1"
                     data-fa-transform="down-1"></span></a>
         </div>
     </div>
@@ -49,7 +49,7 @@
         <div class="card-body position-relative">
             <h6>Contacts<span class="badge badge-soft-success rounded-capsule ml-2">9.54%</span></h6>
             <div class="display-4 fs-4 mb-2 font-weight-normal text-sans-serif"
-                data-countup='{"count":43594,"format":"comma","prefix":"$"}'>{{$user_count}}</div><a
+                data-countup='{"count":43594,"format":"comma","prefix":"$"}'>{{$contactus_count}}</div><a
                 class="font-weight-semi-bold fs--1 text-nowrap" href="#!">Contacts<span class="fas fa-angle-right ml-1"
                     data-fa-transform="down-1"></span></a>
         </div>
