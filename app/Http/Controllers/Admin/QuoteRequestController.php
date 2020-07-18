@@ -12,7 +12,7 @@ class QuoteRequestController extends Controller
 
         if($request->isMethod("GET")){
 
-            $quote_requests = QuoteRequest::paginate(10)->sortByDesc('created_at');
+            $quote_requests = QuoteRequest::paginate(20)->sortByDesc('created_at');
             return view('admin.manage_quote_requests',compact('quote_requests'));
         }
     }

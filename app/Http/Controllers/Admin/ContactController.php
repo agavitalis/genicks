@@ -11,7 +11,7 @@ class ContactController extends Controller
     public function manage_contacts(Request $request)  {
 
         if($request->isMethod("GET")){
-            $contacts = Contact::paginate(10)->sortByDesc('created_at');
+            $contacts = Contact::paginate(20)->sortByDesc('created_at');
             return view('admin.manage_contacts',compact('contacts'));
         }
     }

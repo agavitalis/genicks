@@ -19,6 +19,7 @@ class CreateProductsTable extends Migration
             $table->string('product_name');
             $table->string('picture_url');
             $table->string('status');
+            $table->string('description')->default('null');
             $table->timestamps();
             
         });
