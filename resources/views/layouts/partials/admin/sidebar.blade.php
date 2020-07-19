@@ -71,6 +71,14 @@
         <div class="px-3 px-xl-0">
             <hr class="border-300 my-2" />
         </div>
-       <a class="btn btn-primary btn-sm btn-block my-3" href="#">Log out</a>
+        <a class="btn btn-primary btn-sm btn-block my-3" href="{{ route('logout') }}"
+            onclick="event.preventDefault();
+            document.getElementById('logout-sidebar').submit();">
+            {{ __('Log out') }}
+        </a>
+
+        <form id="logout-sidebar" action="{{ route('logout') }}" method="POST" style="display: none;">
+            @csrf
+        </form>
     </div>
 </nav>

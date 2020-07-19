@@ -49,11 +49,11 @@
                     <div class="form-group">
                         <label for="about-product">About Product/Service</label>
                         <textarea class="form-control" id="about-product" rows="3"
-                            name='about_product'></textarea>
+                            name='product_description'></textarea>
                     </div>
 
                     <div class="form-group">
-                        <label for="sample-picture">Product Sample Picture</label>
+                        <label for="sample-picture">Product Sample Picture<small>(545 x 350)</small></label>
                         <input class="form-control-file" id="sample-picture" type="file" name='product_picture'>
                     </div>
 

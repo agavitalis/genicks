@@ -24,7 +24,7 @@
         var phone_number = $("#phone_number").val();
         var service = $("#service").val();
         var description = $("#description").val();
-        alert(name)
+       
         $.ajax({
             type: "POST",
             url: "/quote",

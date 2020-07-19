@@ -10,6 +10,11 @@ use App\Models\QuoteRequest;
 
 class DashboardController extends Controller
 {
+    public function __construct()
+    {
+       $this->middleware('auth');
+    }
+
     public function index(Request $request)
     {
         $contactus_count = Contact::count();

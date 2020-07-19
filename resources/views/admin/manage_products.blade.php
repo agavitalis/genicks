@@ -102,11 +102,11 @@
                                             class="fas fa-ellipsis-h fs--1"></span></button>
                                     <div class="dropdown-menu dropdown-menu-right border py-0"
                                         aria-labelledby="order-dropdown-0">
-                                        <div class="bg-white py-2"><a class="dropdown-item" href="#!">Completed</a><a
-                                                class="dropdown-item" href="#!">Processing</a><a class="dropdown-item"
-                                                href="#!">On Hold</a><a class="dropdown-item" href="#!">Pending</a>
-                                            <div class="dropdown-divider"></div><a class="dropdown-item text-danger"
-                                                href="#!">Delete</a>
+                                        <div class="bg-white py-2">
+                                            <a class="dropdown-item" href="#!">View Details</a>
+                                            <a class="dropdown-item" href="#!">Edit Product</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item text-danger" href="#!">Delete</a>
                                         </div>
                                     </div>
                                 </div>

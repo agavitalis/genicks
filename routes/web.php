@@ -48,8 +48,10 @@ Route::group(['namespace'=>"Admin"],function(){
 
     //requests
     Route::match(['GET','POST'],'/manage_requests','QuoteRequestController@manage_requests')->name('manage_requests');
+    Route::match(['GET','POST'],'/admin_delete_request','QuoteRequestController@delete_request')->name('admin_delete_request');
 
     //contacts
     Route::match(['GET','POST'],'/manage_contacts','ContactController@manage_contacts')->name('manage_contacts');
-    
+    Route::match(['GET','POST'],'/admin_delete_contact','ContactController@delete_contact')->name('admin_manage_contacts');
+
 });

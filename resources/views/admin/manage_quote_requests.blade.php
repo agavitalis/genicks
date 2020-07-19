@@ -70,64 +70,78 @@
                         <th class="align-middle sort">Title</th>
                         <th class="align-middle sort" style="min-width: 12.5rem;">Message</th>
                         <th class="align-middle sort text-center">Status</th>
-                        
+
                         <th class="no-sort"></th>
                     </tr>
                 </thead>
                 <tbody id="orders">
                     @php
-                        $count = 1;
+                    $count = 1;
                     @endphp
                     @foreach($quote_requests as $quote_request)
-                        <tr class="btn-reveal-trigger">
-                            <td class="py-2 align-middle">
-                                <div class="custom-control custom-checkbox"><input
-                                        class="custom-control-input checkbox-bulk-select-target" type="checkbox"
-                                        id="checkbox-0" /><label class="custom-control-label" for="checkbox-0"></label>
-                                </div>
-                            </td>
-                            <td class="py-2 align-middle white-space-nowrap"><a href="order-details.html">
-                                    <strong>#{{$count}}</strong></a> by <strong>{{$quote_request->name}}</strong><br /><a
-                                    href="mailto:{{$quote_request->email}}">{{$quote_request->email}}</a></td>
-                            <td class="py-2 align-middle">{{$quote_request->created_at->diffForHumans()}}</td>
-                            <td class="py-2 align-middle  fs-0 font-weight-medium">{{$quote_request->service}}</td>
-                            <td class="py-2 align-middle">{{$quote_request->description}}<p
-                                    class="mb-0 text-500">{{$quote_request->service}}</p>
-                            </td>
-                            <td class="py-2 align-middle text-center fs-0 white-space-nowrap"><span
-                                    class="badge badge rounded-capsule d-block badge-soft-success">{{$quote_request->status}}<span
-                                        class="ml-1 fas fa-check" data-fa-transform="shrink-2"></span></span></td>
-                         
-                            <td class="py-2 align-middle white-space-nowrap">
-                                <div class="dropdown text-sans-serif"><button
-                                        class="btn btn-link text-600 btn-sm dropdown-toggle btn-reveal mr-3" type="button"
-                                        id="order-dropdown-0" data-toggle="dropdown" data-boundary="viewport"
-                                        aria-haspopup="true" aria-expanded="false"><span
-                                            class="fas fa-ellipsis-h fs--1"></span></button>
-                                    <div class="dropdown-menu dropdown-menu-right border py-0"
-                                        aria-labelledby="order-dropdown-0">
-                                        <div class="bg-white py-2"><a class="dropdown-item" href="#!">Completed</a><a
-                                                class="dropdown-item" href="#!">Processing</a><a class="dropdown-item"
-                                                href="#!">On Hold</a><a class="dropdown-item" href="#!">Pending</a>
-                                            <div class="dropdown-divider"></div><a class="dropdown-item text-danger"
-                                                href="#!">Delete</a>
-                                        </div>
+                    <tr class="btn-reveal-trigger">
+                        <td class="py-2 align-middle">
+                            <div class="custom-control custom-checkbox"><input
+                                    class="custom-control-input checkbox-bulk-select-target" type="checkbox"
+                                    id="checkbox-0" /><label class="custom-control-label" for="checkbox-0"></label>
+                            </div>
+                        </td>
+                        <td class="py-2 align-middle white-space-nowrap"><a href="order-details.html">
+                                <strong>#{{$count}}</strong></a> by <strong>{{$quote_request->name}}</strong><br /><a
+                                href="mailto:{{$quote_request->email}}">{{$quote_request->email}}</a></td>
+                        <td class="py-2 align-middle">{{$quote_request->created_at->diffForHumans()}}</td>
+                        <td class="py-2 align-middle  fs-0 font-weight-medium">{{$quote_request->service}}</td>
+                        <td class="py-2 align-middle">{{$quote_request->description}}<p class="mb-0 text-500">
+                                {{$quote_request->service}}</p>
+                        </td>
+                        <td class="py-2 align-middle text-center fs-0 white-space-nowrap"><span
+                                class="badge badge rounded-capsule d-block badge-soft-success">{{$quote_request->status}}<span
+                                    class="ml-1 fas fa-check" data-fa-transform="shrink-2"></span></span></td>
+
+                        <td class="py-2 align-middle white-space-nowrap">
+                            <div class="dropdown text-sans-serif">
+                                <button
+                                    class="btn btn-link text-600 btn-sm dropdown-toggle btn-reveal mr-3" type="button"
+                                    id="order-dropdown-0" data-toggle="dropdown" data-boundary="viewport"
+                                    aria-haspopup="true" aria-expanded="false"><span
+                                        class="fas fa-ellipsis-h fs--1"></span>
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-right border py-0"
+                                    aria-labelledby="order-dropdown-0">
+                                    <div class="bg-white py-2">
+                                        <a class="dropdown-item change-status" data-id="{{$quote_request->id}}" data-status="Completed" href="#!">Completed</a>
+                                        <a class="dropdown-item change-status" data-id="{{$quote_request->id}}" data-status="Processing" href="#!">Processing</a>
+                                        <a class="dropdown-item change-status" data-id="{{$quote_request->id}}" data-status="On Hold"  href="#!">On Hold</a>
+                                        <a class="dropdown-item change-status" data-id="{{$quote_request->id}}" data-status="Pending" href="#!">Pending</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item text-danger delete-request" data-id="{{$quote_request->id}}" href="#!">Delete</a>
                                     </div>
                                 </div>
-                            </td>
-                        </tr>
-                        @php
-                            $count ++
-                        @endphp
-                    @endforeach      
+                            </div>
+                        </td>
+                    </tr>
+                    @php
+                    $count ++
+                    @endphp
+                    @endforeach
                 </tbody>
             </table>
         </div>
     </div>
+    <form>
+        @csrf
+    </form>
 </div>
 @endsection
 
 
 @section('footer')
 @include("layouts/partials.admin.footer")
+@endsection
+
+@section('scripts')
+    <!--/ sweet alert script -->
+    <script src="{{ asset('admin_assets/js/sweet-alert.js')}}"></script>
+   <!--/ custom scripts -->
+    <script src="{{ asset('admin_assets/js/manage_quote_requests.js')}}"></script>
 @endsection

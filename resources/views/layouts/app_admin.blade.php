@@ -29,6 +29,9 @@
     <link href="{{ asset('admin_assets/lib/datatables-bs4/dataTables.bootstrap4.min.css') }}" rel="stylesheet">
     <link href="{{ asset('admin_assets/lib/datatables.net-responsive-bs4/responsive.bootstrap4.css') }}" rel="stylesheet">
     <link href="{{ asset('admin_assets/css/theme.css') }}" rel="stylesheet">
+    <!-- Styles -->
+    @yield('styles')
+     <!-- Styles -->
   </head>
 
   <body>
@@ -68,6 +71,7 @@
     <!-- ===============================================-->
     <!--    JavaScripts-->
     <!-- ===============================================-->
+    
     <script src="{{ asset('admin_assets/js/jquery.min.js') }}"></script>
     <script src="{{ asset('admin_assets/js/popper.min.js') }}"></script>
     <script src="{{ asset('admin_assets/js/bootstrap.js') }}"></script>
@@ -77,6 +81,9 @@
     <script src="{{ asset('admin_assets/lib/%40fortawesome/all.min.js') }}"></script>
     <script src="{{ asset('admin_assets/lib/lodash/lodash.min.js') }}"></script>
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-122907869-1"></script>
+     <!-- Scripts -->
+     @yield('scripts')
+     <!-- Scripts -->
     <script>
       window.dataLayer = window.dataLayer || [];
 

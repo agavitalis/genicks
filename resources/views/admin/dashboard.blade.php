@@ -61,7 +61,7 @@
         <div class="card p-2" style="background-image:url({{ asset('assets/img/illustrations/corner-1.png') }}">
             <div class="card-header bg-transparent">
                 <div class="jumbotron">
-                    <h1 class="display-4">Hello, Vitalis!</h1>
+                    <h1 class="display-4">Hello, {{Auth::user()->first_name}}!</h1>
                     <p class="lead">Trust you are having a good day?</p>
 
                 </div>
